@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+
+body {
+  font-family     : 'Roboto', Arial, sans-serif;
+  background-color: #222f3e;
+  color           : #eee;
+}
+
+.app {
+  padding-top    : 5rem;
+  display        : flex;
+  justify-content: center;
+}
+
+.wrap {
+  width: 500px;
+}
+
+$height: 46px;
+
+.select {
+  width   : 100%;
+  position: relative;
+  cursor  : pointer;
+
+  &.open {
+    .select__dropdown {
+      display: block;
+    }
+
+    .select__input {
+      border-bottom: none;
+    }
+  }
+
+
+  &__input {
+    border       : 1px solid #3498db;
+    border-radius: 5px;
+    height       : $height;
+    display      : flex;
+    align-items  : center;
+    padding      : 0 1rem;
+
+    &:hover {
+      background-color: #1e90ff;
+      transition      : .15s background-color ease-in;
+    }
+
+  }
+
+  &__dropdown {
+    display      : none;
+    position     : absolute;
+    border       : 1px solid #2980b9;
+    border-radius: 5px;
+    top          : $height;
+    left         : 0;
+    right        : 0;
+    max-height   : 200px;
+    overflow-y   : auto;
+    box-shadow   : 2px 3px 5px rgba(0, 0, 0, .3);
+  }
+
+  &__list {
+    padding   : 0;
+    margin    : 0;
+    list-style: none;
+  }
+
+  &__item {
+    padding      : 1rem;
+    border-bottom: 1px solid #111;
+
+    &:hover {
+      background-color: #2c3e50;
+      transition      : .10s background-color ease-in;
+    }
+  }
+
+}
