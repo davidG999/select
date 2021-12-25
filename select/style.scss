@@ -35,12 +35,13 @@ $height: 46px;
 
 
   &__input {
-    border       : 1px solid #3498db;
-    border-radius: 5px;
-    height       : $height;
-    display      : flex;
-    align-items  : center;
-    padding      : 0 1rem;
+    border         : 1px solid #3498db;
+    border-radius  : 5px;
+    height         : $height;
+    display        : flex;
+    align-items    : center;
+    justify-content: space-between;
+    padding        : 0 1rem;
 
     &:hover {
       background-color: #1e90ff;
