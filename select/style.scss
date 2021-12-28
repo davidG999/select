@@ -47,6 +47,10 @@ $height: 46px;
       transition      : .15s background-color ease-in;
       cursor          : pointer;
     }
+
+    .fa {
+      transition: .05s ease-in;
+    }
   }
 
   &__dropdown {
