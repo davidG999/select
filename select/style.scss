@@ -40,13 +40,13 @@ $height: 46px;
     align-items    : center;
     justify-content: space-between;
     padding        : 0 1rem;
+    transition     : .15s background-color ease-in;
 
     &:hover {
       background-color: #1e90ff;
       transition      : .15s background-color ease-in;
       cursor          : pointer;
     }
-
   }
 
   &__dropdown {
@@ -61,6 +61,7 @@ $height: 46px;
     overflow-y   : auto;
     box-shadow   : 2px 3px 5px rgba(0, 0, 0, .3);
     border-right : none;
+    transition   : .1s background-color ease-in;
   }
 
   &__list {
@@ -72,10 +73,10 @@ $height: 46px;
   &__item {
     padding      : 1rem;
     border-bottom: 1px solid #111;
+    transition   : .1s background-color ease-in;
 
     &:hover {
       background-color: #2c3e50;
-      transition      : .10s background-color ease-in;
       cursor          : pointer;
     }
   }
