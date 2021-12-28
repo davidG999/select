@@ -15,3 +15,6 @@ const select = new Select('#select', {
     console.log('Selected Item', item)
   }
 })
+
+// for writing in console, e.g. "s.close()"
+window.s = select
