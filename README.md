@@ -4,9 +4,9 @@
 
 In the project directory, you can run:
 
-### `npm install -g parcel-bundler`
+### `npm install -g parcel`
 
-Installs Parcel bundler globally
+Installs [Parcel bundler](https://www.npmjs.com/package/parcel) globally
 
 ### `parcel index.html`
 
