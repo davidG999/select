@@ -1,5 +1,11 @@
 # Select plugin w/ vanilla JS
 
+## Preview 👀
+
+![Select plugin preview](https://user-images.githubusercontent.com/85896378/152241897-28d5335a-fdcd-4a39-b967-8a9913e08ab7.gif)
+
+[Try it out yourself! 👆](https://2c2f01c9.select-plugin.pages.dev/)
+
 ## Available Scripts
 
 In the project directory, you can run:
